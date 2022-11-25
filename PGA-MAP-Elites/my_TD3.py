@@ -206,7 +206,7 @@ class TD3(object):
             s, a, r, s_prime, done_mask = transition
             batch_s.append(s)
             batch_a.append(a)
-            batch_r.append(r)
+            batch_r.append([r])
             batch_s_prime.append(s_prime)
             batch_done.append([done_mask])
 

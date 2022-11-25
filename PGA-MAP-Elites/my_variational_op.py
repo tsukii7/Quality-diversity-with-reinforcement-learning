@@ -7,7 +7,6 @@ import torch
 def variation(archive,
               batch_size,
               proportion_evo):
-
     keys = list(archive.keys())
 
     actors_z = []
@@ -27,7 +26,7 @@ def variation(archive,
         actor_z = copy.deepcopy(actor_x)
         actor_z_state_dict = crossover(actor_x.state_dict(), actor_y.state_dict())  # 将actor x和y的网络参数crossover
         actor_z.load_state_dict(actor_z_state_dict)
-        actors_z += actor_z
+        actors_z.append(actor_z)
     return actors_z
 
 

@@ -139,7 +139,7 @@ if __name__ == "__main__":
 
         else:
             print("selection/variation")
-            # TODO: train一个actor
+            # TODO: train an actor
             critic, actors, states = train_critic(agent, s_archive, args.nr_of_steps_act, args.nr_of_steps_crit)
             to_evaluate += actors
 
@@ -148,7 +148,7 @@ if __name__ == "__main__":
 
         # solution: (fitness, desc, alive)
         solutions = evaluate(env, to_evaluate, agent)
-        n_evals += args.eval_batch_size
+        n_evals += len(to_evaluate)
 
         # add to
         to_archive = []
@@ -165,7 +165,6 @@ if __name__ == "__main__":
         add_to_archive(to_archive, archive, kdt)
         add_to_archive(to_s_archive, s_archive, s_kdt, main=False)
 
-        n_evals += args.eval_batch_size
 
         max_fitness = -sys.maxsize
         sum_fit = 0
@@ -173,6 +172,9 @@ if __name__ == "__main__":
             sum_fit += x.fitness
             if x.fitness > max_fitness:
                 max_fitness = x.fitness
+        print(f"[{n_evals}/{int(args.max_evals)}]",  flush=True)
         print(f"Max fitness: {max_fitness}")
         print(f"Mean fitness: {sum_fit/len(archive)}")
+
+    env.close()
 

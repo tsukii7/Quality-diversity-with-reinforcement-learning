@@ -72,14 +72,14 @@ def add_to_archive(individuals, archive, kdt, main=True):
         desc = i.desc
         niche_index = kdt.query([desc], k=1)[1][0][0]
         niche = kdt.data[niche_index]
-        # n = make_hashable(niche)
+        n = make_hashable(niche)
         if main:
-            i.centroid = niche
-        if niche in archive:
-            if fitness > archive[niche].fitness:
-                archive[niche] = i
+            i.centroid = n
+        if n in archive:
+            if fitness > archive[n].fitness:
+                archive[n] = i
         else:
-            archive[niche] = i
+            archive[n] = i
 
     # niche_index = kdt.query([centroid], k=1)[1][0][0]
     # niche = kdt.data[niche_index]
