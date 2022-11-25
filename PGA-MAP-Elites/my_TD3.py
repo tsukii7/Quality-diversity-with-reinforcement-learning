@@ -23,7 +23,7 @@ LEARNING_RATE = 0.0003
 GAMMA = 0.95
 EPSILON = 0.98  # greedy policy
 MEMORY_CAPACITY = 1000000
-BATCH_SIZE = 32
+BATCH_SIZE = 256
 TARGET_REPLACE_CNT = 2
 EPISIODE_CNT = 500
 TRAIN_STEP_CNT = 500
@@ -188,13 +188,16 @@ class TD3(object):
         self.memory.append(transition)
         self.memory_iterator += 1
 
-    def sample_state(self, steps):
+    def sample_state(self, nr_of_steps_act, steps):
         states = []
-        mini_batch = random.sample(self.memory, steps)
-        for transition in mini_batch:
-            s, a, r, s_prime, done_mask = transition
-            states.append(s)
-        states = torch.FloatTensor(np.array(states))
+        for _ in range(nr_of_steps_act):
+            state = []
+            mini_batch = random.sample(self.memory, steps)
+            for transition in mini_batch:
+                s, a, r, s_prime, done_mask = transition
+                state.append(s)
+            state = torch.FloatTensor(np.array(state))
+            states.append(state)
         return states
 
     # randomly sample mini_batch transitions from memory

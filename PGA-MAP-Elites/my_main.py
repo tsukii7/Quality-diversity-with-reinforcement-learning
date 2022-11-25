@@ -18,8 +18,8 @@ class LoadFromFile(argparse.Action):
 
 
 def make_env(env_id):
-    env = gym.make(env_id, render=True)
-    # env = gym.make(env_id, render=False)
+    # env = gym.make(env_id, render=True)
+    env = gym.make(env_id, render=False)
     return env
 
 
