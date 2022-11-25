@@ -142,8 +142,13 @@ if __name__ == "__main__":
             to_evaluate += actors
 
             # variation
-            to_evaluate += variation(archive, args.eval_batch_size - len(actors), 1)  # TODO:实现完pg改proportion
-
+            to_evaluate += variation(archive,
+                                     args.eval_batch_size - len(actors),
+                                     args.proportion_evo,
+                                     args.lr,
+                                     critic,
+                                     states,
+                                     args.nr_of_steps_act)
         # solution: (fitness, desc, alive)
         solutions = evaluate(env, to_evaluate, agent)
         n_evals += len(to_evaluate)
