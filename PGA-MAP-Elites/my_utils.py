@@ -63,7 +63,6 @@ class Individual:
         self.desc = desc
         self.fitness = fitness
         self.centroid = centroid
-        self.novelty = None
 
 
 def add_to_archive(individuals, archive, kdt, main=True):
@@ -80,23 +79,3 @@ def add_to_archive(individuals, archive, kdt, main=True):
                 archive[n] = i
         else:
             archive[n] = i
-
-    # niche_index = kdt.query([centroid], k=1)[1][0][0]
-    # niche = kdt.data[niche_index]
-    # n = make_hashable(niche)
-    # if main:
-    #     s.centroid = n
-    # if n in archive:
-    #     if s.fitness > archive[n].fitness:
-    #         if main:
-    #             s.x.novel = False
-    #             s.x.delta_f = s.fitness - archive[n].fitness
-    #         archive[n] = s
-    #         return 1
-    #     return 0
-    # else:
-    #     archive[n] = s
-    #     if main:
-    #         s.x.novel = True
-    #         s.x.delta_f = None
-    #     return 1

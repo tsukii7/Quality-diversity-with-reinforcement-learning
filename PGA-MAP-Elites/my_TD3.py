@@ -50,13 +50,10 @@ class ActorNetwork(nn.Module):
         self.max_action = max_action
 
         self.fc1 = nn.Linear(state_dim, neurons_list[0])
-        # self.fc1.weight.data.normal_(0, 0.1)
         self.ln1 = nn.LayerNorm(neurons_list[0])
         self.fc2 = nn.Linear(neurons_list[0], neurons_list[1])
-        # self.fc2.weight.data.normal_(0, 0.1)
         self.ln2 = nn.LayerNorm(neurons_list[1])
         self.fc3 = nn.Linear(neurons_list[1], action_dim)
-        # self.fc2.weight.data.normal_(0, 0.1)
         self.ln3 = nn.LayerNorm(action_dim)
         # self.out = nn.Linear(256, action_dim)
         # self.out.weight.data.normal_(0, 0.1)
@@ -66,12 +63,10 @@ class ActorNetwork(nn.Module):
         self.to(device)
 
     def forward(self, state):
-        # print(state)
         action_value = F.relu(self.ln1(self.fc1(state)))
         action_value = F.relu(self.ln2(self.fc2(action_value)))
         action_value = torch.tanh(self.ln3(self.fc3(action_value)))
         action_value = self.max_action * action_value
-        # action_value = self.out(state)
         return action_value
 
     def select_action(self, state):
@@ -80,10 +75,10 @@ class ActorNetwork(nn.Module):
         return action
 
     def save(self, filename):
-        torch.save(self.state_dict(), filename)
+        torch.save(self.state_dict(), filename + "_actor")
 
     def load(self, filename):
-        self.load_state_dict(torch.load(filename))
+        self.load_state_dict(torch.load(filename + "_actor"))
 
 
 class CriticNetwork(nn.Module):
@@ -120,14 +115,13 @@ class CriticNetwork(nn.Module):
             return q1, q2
 
         return q1
-        # return q1
 
     def save(self, filename):
-        torch.save(self.state_dict(), filename)
-        torch.save(self.critic_optimizer.state_dict(), filename + "_optimizer")
+        torch.save(self.state_dict(), filename + "_critic")
+        torch.save(self.critic_optimizer.state_dict(), filename + "_critic_optimizer")
 
     def load(self, filename):
-        self.load_state_dict(torch.load(filename))
+        self.load_state_dict(torch.load(filename + "_critic"))
         self.critic_optimizer.load_state_dict(torch.load(filename + "_critic_optimizer"))
 
 
@@ -143,7 +137,6 @@ class TD3(object):
                  policy_freq=TARGET_REPLACE_CNT,
                  policy_noise=0.2,
                  noise_clip=0.5):
-        # self.actor = ActorNetwork(state_dim, action_dim, max_action)
         self.critic = CriticNetwork(state_dim, action_dim)
         self.critic_target = CriticNetwork(state_dim, action_dim)
         self.critic_target.load_state_dict(self.critic.state_dict())
@@ -188,7 +181,7 @@ class TD3(object):
         self.memory.append(transition)
         self.memory_iterator += 1
 
-    def sample_state(self, batch_size, steps):
+    def sample_state(self, steps):
         states = []
         mini_batch = random.sample(self.memory, steps)
         for transition in mini_batch:
@@ -261,6 +254,8 @@ class TD3(object):
         if self.memory_iterator < BATCH_SIZE:
             return
         self.add_species(archive)
+
+        critic_loss = 0
         for _ in range(n_crit):
             self.learn_iterator += 1
             state, action, reward, next_state, not_done = self.sample_transition(batch_size)
@@ -292,30 +287,6 @@ class TD3(object):
                 self.update_network_parameters(state)
         return critic_loss
 
-    # def learn(self):
-    #     # update target network with evaluation network
-    #     if len(self.memory) < BATCH_SIZE:
-    #         return
-    #
-    #     if self.learn_iterator % TARGET_REPLACE_CNT == 0:
-    #         self.critic_target.load_state_dict(self.critic.state_dict())
-    #     self.learn_iterator += 1
-    #     cnt = 0
-    #     for i in range(10):
-    #         batch_s, batch_a, batch_r, batch_s_prime, batch_done = self.sample_transition(BATCH_SIZE)
-    #         # train evaluation network
-    #         q_eval = self.critic(batch_s).gather(1, batch_a)  # shape (batch, 1)
-    #         q_next = self.critic_target(batch_s_prime).detach()  # detach from graph, don't backpropagate
-    #         # target = batch_r + GAMMA * q_next.max(1)[0].view(BATCH_SIZE, 1)    # shape (batch, 1)
-    #         target = batch_r + GAMMA * q_next.max(1)[0].view(BATCH_SIZE, 1) * batch_done  # shape (batch, 1)
-    #         loss = self.loss_func(q_eval, target)
-    #         if cnt % 1000 == 0:
-    #             losses.append(loss.detach().numpy())
-    #         cnt += 1
-    #         self.optimizer.zero_grad()
-    #         loss.backward()
-    #         self.optimizer.step()
-
 # def plot(name, rewards):
 #     plt.title(name + "curve of DQN for CartPole-v1")
 #     # plt.title("learning curve of Sarsa for Taxi-v3")
@@ -323,55 +294,3 @@ class TD3(object):
 #     plt.ylabel('rewards')
 #     plt.plot(rewards, label='rewards')
 #     plt.show()
-#
-#
-# if __name__ == '__main__':
-#     # initialize
-#     time_start = time.time()
-#     env = gym.make('CartPole-v1')
-#     ddpg = PGA_MAP_Elites()
-#     rewards = []
-#     print('\nCollecting experience...')
-#     for i_episode in range(EPISIODE_CNT):
-#         if time.time() - time_start > TIME_LIMIT:
-#             break
-#         s = env.reset()
-#         ep_r = 0
-#         while True:
-#             # env.render()
-#             action = ddpg.choose_action(s)
-#             s_prime, r, done, info, = env.step(action)
-#             done_mask = 0.0 if done else 1.0
-#             ddpg.store_transition(s, action, r, s_prime, done_mask)
-#             ep_r += r
-#             if ddpg.memory_iterator > MEMORY_CAPACITY:
-#                 ddpg.learn()
-#                 if done:
-#                     print('Ep: ', i_episode,
-#                           '| Ep_r: ', round(ep_r, 2))
-#
-#             if done:
-#                 rewards.append(ep_r)
-#                 break
-#             s = s_prime
-#     plot('learning ', rewards)
-#     plot('loss ', losses)
-#     rewards = []
-#     for i in range(TEST_EPISODE_CNT):
-#         s = env.reset()
-#         env.render()
-#         done = False
-#         score = 0.0
-#         while not done:
-#             action = ddpg.choose_action(s)
-#             s_prime, r, done, info = env.step(action)
-#             s = s_prime  # s进入下一个state
-#             score += r
-#             if done:
-#                 rewards.append(score)
-#                 break
-#         print("test  score:{:.1f}".format(score))
-#     plot('testing ', rewards)
-#     # torch.save(dqn.target_net, 'target_net.pkl')  # 保存整个网络
-#
-#     ddpg.critic_target.save('target_net.pkl')

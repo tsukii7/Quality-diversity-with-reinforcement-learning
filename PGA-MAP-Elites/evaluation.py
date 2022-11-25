@@ -10,7 +10,6 @@ def evaluate(env, actors, agent, test_mode=False):
         state = env.reset()
         done = False
         # eval loop
-        # state_array, action_array, next_state_array, reward_array, done_bool_array = [], [], [], [], []
         while not done:
             # env.render()
             # time.sleep(0.01)
@@ -42,23 +41,3 @@ def train_critic(agent, archive, nr_of_steps_act, nr_of_steps_crit):
         print(f"Train Time: {train_time}")
         print(f"Critic Loss: {critic_loss.detach()}")
         return agent.critic_target, out_actors, states
-
-        # state_array.append(state)
-        # action_array.append(action)
-        # next_state_array.append(next_state)
-        # reward_array.append(reward)
-        # done_bool_array.append(done_bool)
-        # state = next_state
-
-        # if env.T == 1:
-        #     state_array = state
-        #     action_array = action
-        #     next_state_array = next_state
-        #     reward_array = reward
-        #     done_bool_array = done_bool
-        # else:
-        #     state_array = np.vstack((state, state_array))
-        #     action_array = np.vstack((action, action_array))
-        #     next_state_array = np.vstack((next_state, next_state_array))
-        #     reward_array = np.vstack((reward, reward_array))
-        #     done_bool_array = np.vstack((done_bool, done_bool_array))
