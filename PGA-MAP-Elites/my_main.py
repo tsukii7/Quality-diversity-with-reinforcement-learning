@@ -4,7 +4,7 @@ import sys
 import gym
 import QDgym
 
-from my_codes.PGA_MAP_Elites.my_TD3 import TD3, ActorNetwork
+from my_TD3 import TD3, ActorNetwork
 from my_utils import *
 from functools import partial
 from sklearn.neighbors import KDTree
