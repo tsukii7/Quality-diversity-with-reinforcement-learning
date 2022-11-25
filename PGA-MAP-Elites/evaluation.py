@@ -37,7 +37,7 @@ def train_critic(agent, archive, nr_of_steps_act, nr_of_steps_crit):
             for param in a.parameters():
                 param.requires_grad = False
             out_actors.append(a)
-        states = agent.sample_state(agent.batch_size, nr_of_steps_act)
+        states = agent.sample_state(agent.batch_size)
         print(f"Train Time: {train_time}")
         print(f"Critic Loss: {critic_loss.detach()}")
         return agent.critic_target, out_actors, states

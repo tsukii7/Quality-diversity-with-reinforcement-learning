@@ -1,3 +1,10 @@
+'''
+Copyright (c) 2020 Scott Fujimoto
+Based on Twin Delayed Deep Deterministic Policy Gradients (TD3)
+Implementation by Scott Fujimoto https://github.com/sfujim/TD3 Paper: https://arxiv.org/abs/1802.09477,
+                    Olle Nilsson: olle.nilsson19@imperial.ac.uk
+'''
+
 import copy
 
 import gym
