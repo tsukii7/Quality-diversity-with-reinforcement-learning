@@ -3,7 +3,7 @@
 --dim_map=1
 --n_niches=1000
 --n_species=1
---max_evals=1000000
+--max_evals=100000
 --mutation_op=None
 --crossover_op=iso_dd
 --mutation_rate=0.55
@@ -19,8 +19,8 @@
 --random_init=500
 --init_batch_size=100
 --save_period=10000
---num_cpu=32
---num_cpu_var=32
+--num_cpu=1
+--num_cpu_var=1
 --use_cached_cvt
 --neurons_list=128 128
 --nr_of_steps_crit=300

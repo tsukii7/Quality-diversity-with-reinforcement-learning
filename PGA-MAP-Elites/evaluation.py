@@ -3,7 +3,6 @@ import time
 
 import numpy as np
 
-
 def evaluate(env, actors, agent, test_mode=False):
     results = []
     for actor in actors:
@@ -34,8 +33,8 @@ def train_critic(agent, archive, nr_of_steps_act, nr_of_steps_crit):
         print("critic.actors len: ", len(agent.actors))
         for actor in agent.actors:
             a = copy.deepcopy(actor)
-            for param in a.parameters():
-                param.requires_grad = False
+            # for param in a.parameters():
+            #     param.requires_grad = False
             out_actors.append(a)
         states = agent.sample_state(nr_of_steps_act, agent.batch_size)
         print(f"Train Time: {train_time}")

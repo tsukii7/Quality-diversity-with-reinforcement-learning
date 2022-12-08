@@ -42,8 +42,8 @@ def variation(archive,
     for individual in actors_x_grad:
         actor_z = individual.x
         actor_z_copy = copy.deepcopy(actor_z)
-        for param in actor_z_copy.parameters():
-            param.requires_grad = True
+        # for param in actor_z_copy.parameters():
+        #     param.requires_grad = True
         optimizer = torch.optim.Adam(actor_z_copy.parameters(), lr=learning_rate)
         for i in range(nr_of_steps_act):
             state = states[i]
@@ -51,8 +51,8 @@ def variation(archive,
             optimizer.zero_grad()
             actor_loss.backward()
             optimizer.step()
-        for param in actor_z.parameters():
-            param.requires_grad = False
+        # for param in actor_z.parameters():
+        #     param.requires_grad = False
         actors_z.append(actor_z)
     return actors_z
 
