@@ -16,7 +16,7 @@ import numpy as np
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-import torch.optim as optim
+# import torch.optim as optim
 # import matplotlib.pyplot as plt
 
 LEARNING_RATE = 3e-4
@@ -62,7 +62,7 @@ class ActorNetwork(nn.Module):
         # self.out = nn.Linear(256, action_dim)
         # self.out.weight.data.normal_(0, 0.1)
 
-        self.optimizer = optim.Adam(self.parameters(), lr=LEARNING_RATE)
+        # self.optimizer = optim.Adam(self.parameters(), lr=LEARNING_RATE)
         self.apply(weight_init)
         self.to(device)
 
@@ -105,7 +105,7 @@ class CriticNetwork(nn.Module):
         self.fc4 = nn.Linear(neurons_list[0], neurons_list[1])
         self.out2 = nn.Linear(neurons_list[1], 1)
 
-        self.optimizer = optim.Adam(self.parameters(), lr=LEARNING_RATE)
+        # self.optimizer = optim.Adam(self.parameters(), lr=LEARNING_RATE)
         # self.apply(weight_init)
         self.to(device)
 
@@ -117,9 +117,9 @@ class CriticNetwork(nn.Module):
         q1 = self.out1(q1)
 
         if get_q2:
-            q2 = F.relu(self.fc1(sa))
-            q2 = F.relu(self.fc2(q2))
-            q2 = self.out1(q2)
+            q2 = F.relu(self.fc3(sa))
+            q2 = F.relu(self.fc4(q2))
+            q2 = self.out2(q2)
             return q1, q2
 
         return q1
@@ -170,7 +170,7 @@ class TD3(object):
         self.learn_iterator = 0
         self.memory_iterator = 0
         self.memory = collections.deque(maxlen=MEMORY_CAPACITY)
-        self.loss_func = nn.MSELoss()
+        self.loss_func = F.mse_loss
         self.device = device
 
     # Select action according to policy and add clipped noise
@@ -291,7 +291,8 @@ class TD3(object):
             current_Q1, current_Q2 = self.critic(state, action)
 
             # Compute critic loss
-            critic_loss = self.loss_func(current_Q1, target_Q) + self.loss_func(current_Q2, target_Q)
+            critic_loss = F.mse_loss(current_Q1, target_Q) + F.mse_loss(current_Q2, target_Q)
+            # critic_loss = self.loss_func(current_Q1, target_Q) + self.loss_func(current_Q2, target_Q)
 
             # Optimize the critic
             self.critic_optimizer.zero_grad()

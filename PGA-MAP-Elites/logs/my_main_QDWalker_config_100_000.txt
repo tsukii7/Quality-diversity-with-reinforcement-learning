@@ -1,0 +1,458 @@
+pybullet build time: Oct 10 2022 23:46:30
+The behavioural desciptor is 2-dimentional and defined as proportion of feet contact time with the ground in the order ['foot', 'foot_left']
+WARNING: using cached CVT: my_CVT/centroids_1024_2.dat
+WARNING: using cached CVT: my_CVT/centroids_1_2.dat
+The behavioural desciptor is 2-dimentional and defined as proportion of feet contact time with the ground in the order ['foot', 'foot_left']
+Number of solutions:0
+Number of species:0
+random loop
+[100/100000]
+Max fitness: 41.27573838466485
+Mean fitness: 13.429122620634041
+Number of solutions:80
+Number of species:1
+random loop
+[200/100000]
+Max fitness: 41.27573838466485
+Mean fitness: 12.633128913296309
+Number of solutions:135
+Number of species:1
+random loop
+[300/100000]
+Max fitness: 41.27573838466485
+Mean fitness: 13.165940922139418
+Number of solutions:181
+Number of species:1
+random loop
+[400/100000]
+Max fitness: 41.27573838466485
+Mean fitness: 13.262130920824077
+Number of solutions:216
+Number of species:1
+random loop
+[500/100000]
+Max fitness: 50.168860777922866
+Mean fitness: 13.518390459307884
+Number of solutions:256
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 3.68064284324646
+Critic Loss: 0.5589559078216553
+[600/100000]
+Max fitness: 65.71013379100185
+Mean fitness: 14.23762094769839
+Number of solutions:289
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.331967115402222
+Critic Loss: 0.4841390550136566
+[700/100000]
+Max fitness: 77.35358487101054
+Mean fitness: 14.995920446542875
+Number of solutions:325
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 3.696683645248413
+Critic Loss: 0.4161508083343506
+[800/100000]
+Max fitness: 77.35358487101054
+Mean fitness: 15.471053229026886
+Number of solutions:361
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.817238092422485
+Critic Loss: 0.4196271598339081
+[900/100000]
+Max fitness: 77.35358487101054
+Mean fitness: 15.823998955711582
+Number of solutions:397
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 3.6114604473114014
+Critic Loss: 0.3809458315372467
+[1000/100000]
+Max fitness: 77.35358487101054
+Mean fitness: 16.140202116083067
+Number of solutions:417
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 4.866749048233032
+Critic Loss: 0.46750396490097046
+[1100/100000]
+Max fitness: 77.35358487101054
+Mean fitness: 16.47201881593219
+Number of solutions:442
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 3.4460268020629883
+Critic Loss: 0.4013633728027344
+[1200/100000]
+Max fitness: 77.35358487101054
+Mean fitness: 17.027319459248123
+Number of solutions:459
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.659826040267944
+Critic Loss: 0.4642007350921631
+[1300/100000]
+Max fitness: 105.3703879102671
+Mean fitness: 17.804929019008284
+Number of solutions:481
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 3.5412776470184326
+Critic Loss: 0.39781931042671204
+[1400/100000]
+Max fitness: 576.0923862518463
+Mean fitness: 19.07355744967904
+Number of solutions:499
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 3.595418691635132
+Critic Loss: 0.35513123869895935
+[1500/100000]
+Max fitness: 576.0923862518463
+Mean fitness: 19.532638248568308
+Number of solutions:515
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.538508653640747
+Critic Loss: 0.3990345001220703
+[1600/100000]
+Max fitness: 576.0923862518463
+Mean fitness: 19.747802014871965
+Number of solutions:531
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 3.61246395111084
+Critic Loss: 0.4656764268875122
+[1700/100000]
+Max fitness: 576.0923862518463
+Mean fitness: 19.92769062167382
+Number of solutions:545
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 4.841684341430664
+Critic Loss: 0.4098159670829773
+[1800/100000]
+Max fitness: 576.0923862518463
+Mean fitness: 20.36621068887487
+Number of solutions:561
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 3.530247926712036
+Critic Loss: 0.37324413657188416
+[1900/100000]
+Max fitness: 576.0923862518463
+Mean fitness: 20.53812515447027
+Number of solutions:572
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 4.989069223403931
+Critic Loss: 0.47413408756256104
+[2000/100000]
+Max fitness: 576.0923862518463
+Mean fitness: 20.851302804162657
+Number of solutions:583
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 3.5382680892944336
+Critic Loss: 0.4030841588973999
+[2100/100000]
+Max fitness: 576.0923862518463
+Mean fitness: 21.176326093404416
+Number of solutions:589
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 3.646552324295044
+Critic Loss: 0.47979897260665894
+[2200/100000]
+Max fitness: 576.0923862518463
+Mean fitness: 21.27459679573426
+Number of solutions:598
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 3.607450246810913
+Critic Loss: 0.36850178241729736
+[2300/100000]
+Max fitness: 576.0923862518463
+Mean fitness: 21.51118377096041
+Number of solutions:607
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 4.111771106719971
+Critic Loss: 0.39339154958724976
+[2400/100000]
+Max fitness: 576.0923862518463
+Mean fitness: 21.699336988356084
+Number of solutions:617
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 3.5573177337646484
+Critic Loss: 0.5167227983474731
+[2500/100000]
+Max fitness: 576.0923862518463
+Mean fitness: 21.980395062467117
+Number of solutions:623
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 4.934927225112915
+Critic Loss: 0.34060391783714294
+[2600/100000]
+Max fitness: 576.0923862518463
+Mean fitness: 22.34586376264441
+Number of solutions:635
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 4.004490375518799
+Critic Loss: 0.2763378322124481
+[2700/100000]
+Max fitness: 576.0923862518463
+Mean fitness: 22.43011274070725
+Number of solutions:647
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 4.412558555603027
+Critic Loss: 0.37909138202667236
+[2800/100000]
+Max fitness: 576.0923862518463
+Mean fitness: 22.713418978048413
+Number of solutions:654
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 3.5733606815338135
+Critic Loss: 0.411801278591156
+[2900/100000]
+Max fitness: 576.0923862518463
+Mean fitness: 22.942342750267983
+Number of solutions:664
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 3.718743085861206
+Critic Loss: 0.34432584047317505
+[3000/100000]
+Max fitness: 576.0923862518463
+Mean fitness: 23.186303275396288
+Number of solutions:670
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 4.853714466094971
+Critic Loss: 0.2952515184879303
+[3100/100000]
+Max fitness: 576.0923862518463
+Mean fitness: 23.47422793494308
+Number of solutions:676
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 3.7277655601501465
+Critic Loss: 0.3090745210647583
+[3200/100000]
+Max fitness: 576.0923862518463
+Mean fitness: 23.790586217937815
+Number of solutions:679
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 3.8039662837982178
+Critic Loss: 0.3737577795982361
+[3300/100000]
+Max fitness: 576.0923862518463
+Mean fitness: 23.972296601675612
+Number of solutions:680
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 3.7407987117767334
+Critic Loss: 0.44751977920532227
+[3400/100000]
+Max fitness: 576.0923862518463
+Mean fitness: 24.27088641606719
+Number of solutions:686
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 4.405540704727173
+Critic Loss: 0.31801775097846985
+[3500/100000]
+Max fitness: 576.0923862518463
+Mean fitness: 24.459645950031753
+Number of solutions:695
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 4.705329179763794
+Critic Loss: 0.40740489959716797
+[3600/100000]
+Max fitness: 576.0923862518463
+Mean fitness: 24.641914461031703
+Number of solutions:697
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 4.3814778327941895
+Critic Loss: 0.3805193305015564
+[3700/100000]
+Max fitness: 576.0923862518463
+Mean fitness: 25.076393295061497
+Number of solutions:701
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 4.071666717529297
+Critic Loss: 0.3542097806930542
+[3800/100000]
+Max fitness: 576.0923862518463
+Mean fitness: 25.237466649305112
+Number of solutions:709
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 4.927909851074219
+Critic Loss: 0.35604286193847656
+[3900/100000]
+Max fitness: 576.0923862518463
+Mean fitness: 25.365996698685418
+Number of solutions:717
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 3.8681328296661377
+Critic Loss: 0.38429901003837585
+[4000/100000]
+Max fitness: 576.0923862518463
+Mean fitness: 25.514497706362913
+Number of solutions:720
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 3.7347841262817383
+Critic Loss: 0.41976505517959595
+[4100/100000]
+Max fitness: 576.0923862518463
+Mean fitness: 25.61764314999657
+Number of solutions:726
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 3.822012424468994
+Critic Loss: 0.3969366252422333
+[4200/100000]
+Max fitness: 576.0923862518463
+Mean fitness: 25.99281339101577
+Number of solutions:731
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 3.790931463241577
+Critic Loss: 0.305027037858963
+[4300/100000]
+Max fitness: 666.488014833031
+Mean fitness: 27.040522094645407
+Number of solutions:738
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 3.7708775997161865
+Critic Loss: 0.3911078870296478
+[4400/100000]
+Max fitness: 666.488014833031
+Mean fitness: 27.227660417830606
+Number of solutions:743
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 4.829651117324829
+Critic Loss: 0.3506428897380829
+[4500/100000]
+Max fitness: 666.488014833031
+Mean fitness: 27.36854668876449
+Number of solutions:749
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.017143487930298
+Critic Loss: 0.43875017762184143
+[4600/100000]
+Max fitness: 666.488014833031
+Mean fitness: 27.578684118468242
+Number of solutions:752
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.819244384765625
+Critic Loss: 0.424363374710083
+[4700/100000]
+Max fitness: 666.488014833031
+Mean fitness: 27.76251699608477
+Number of solutions:753
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.517452716827393
+Critic Loss: 0.3224232792854309
+[4800/100000]
+Max fitness: 666.488014833031
+Mean fitness: 27.90520653426019
+Number of solutions:756
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.043211460113525
+Critic Loss: 0.37424054741859436
+[4900/100000]
+Max fitness: 666.488014833031
+Mean fitness: 28.135149087538196
+Number of solutions:759
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.0943450927734375
+Critic Loss: 0.4071349501609802
+[5000/100000]
+Max fitness: 666.488014833031
+Mean fitness: 28.281368989355542
+Number of solutions:761
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.804205417633057
+Critic Loss: 0.44931185245513916
+[5100/100000]
+Max fitness: 666.488014833031
+Mean fitness: 28.45456294677309
+Number of solutions:767
+Number of species:1
+selection/variation
+forrtl: error (200): program aborting due to control-C event
+Image              PC                Routine            Line        Source             
+libifcoremd.dll    00007FFD17263B58  Unknown               Unknown  Unknown
+KERNELBASE.dll     00007FFD72A153D5  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FFD741B5550  Unknown               Unknown  Unknown
+ntdll.dll          00007FFD7504485B  Unknown               Unknown  Unknown

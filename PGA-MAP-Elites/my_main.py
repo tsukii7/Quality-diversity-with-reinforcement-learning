@@ -177,5 +177,6 @@ if __name__ == "__main__":
         print(f"[{n_evals}/{int(args.max_evals)}]", flush=True)
         print(f"Max fitness: {max_fitness}")
         print(f"Mean fitness: {sum_fit / len(archive)}")
+        print(f"QD score: {sum_fit}")
 
     env.close()

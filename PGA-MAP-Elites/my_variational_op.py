@@ -53,7 +53,8 @@ def variation(archive,
             optimizer.step()
         # for param in actor_z.parameters():
         #     param.requires_grad = False
-        actors_z.append(actor_z)
+        # actors_z.append(actor_z)
+        actors_z.append(actor_z_copy)
     return actors_z
 
 

@@ -14,6 +14,7 @@ def evaluate(env, actors, agent, test_mode=False):
             # time.sleep(0.01)
             action = actor.select_action(np.array(state))
             next_state, reward, done, _ = env.step(action)
+            state = next_state
             done_bool = float(done) if env.T < env._max_episode_steps else 0
             if not test_mode:
                 agent.store_transition(state, action, reward, next_state, done_bool)
