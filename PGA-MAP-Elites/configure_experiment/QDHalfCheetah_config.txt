@@ -3,7 +3,7 @@
 --dim_map=2
 --n_niches=1024
 --n_species=1
---max_evals=1000000
+--max_evals=100000
 --mutation_op=None
 --crossover_op=iso_dd
 --mutation_rate=0.55

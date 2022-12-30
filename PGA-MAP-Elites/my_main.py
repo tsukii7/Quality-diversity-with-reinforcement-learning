@@ -100,6 +100,10 @@ if __name__ == "__main__":
     args = parser.parse_args()
     args.neurons_list = [int(x) for x in args.neurons_list.split()]
 
+    # 设置seed
+    torch.manual_seed(args.seed * int(1e6))
+    np.random.seed(args.seed * int(1e6))
+
     # 获取state_dim action_dim max_action:动作空间的最大取值
     temp_env = gym.make(args.env)
     state_dim = temp_env.observation_space.shape[0]
@@ -119,7 +123,9 @@ if __name__ == "__main__":
     s_archive = {}
 
     # initialize critic network
-    agent = TD3(state_dim, action_dim, max_action)
+    agent = TD3(state_dim, action_dim, max_action,
+                policy_noise=args.policy_noise * max_action,
+                noise_clip=args.noise_clip * max_action)
 
     # 创建环境
     env = make_env(args.env)

@@ -16,12 +16,13 @@ import numpy as np
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
+
 # import torch.optim as optim
 # import matplotlib.pyplot as plt
 
 LEARNING_RATE = 3e-4
 # GAMMA = 0.99
-MEMORY_CAPACITY = 1000000
+MEMORY_CAPACITY = int(1e6)
 BATCH_SIZE = 256
 TARGET_REPLACE_CNT = 2
 # TRAIN_STEP_CNT = 500
@@ -29,19 +30,20 @@ TARGET_REPLACE_CNT = 2
 # ACTIONS_DIM = 2
 
 
-
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+
 # device = torch.device("cpu")
 
 
 def weight_init(m):
     if isinstance(m, nn.Linear):
         nn.init.xavier_normal_(m.weight)
-        if m.bias is not None:
-            nn.init.constant_(m.bias, 0.0)
-    elif isinstance(m, nn.LayerNorm):
-            pass
-    elif isinstance(m, nn.BatchNorm1d):
+        # if m.bias is not None:
+        #     nn.init.constant_(m.bias, 0.0)
+    if isinstance(m, nn.LayerNorm):
+        pass
+    if isinstance(m, nn.BatchNorm1d):
         nn.init.constant_(m.weight, 1.0)
         nn.init.constant_(m.bias, 0.0)
 
@@ -53,11 +55,11 @@ class ActorNetwork(nn.Module):
             neurons_list = [128, 128]
         self.max_action = max_action
 
-        self.fc1 = nn.Linear(state_dim, neurons_list[0])
+        self.fc1 = nn.Linear(state_dim, neurons_list[0], bias=True)
         # self.ln1 = nn.LayerNorm(neurons_list[0])
-        self.fc2 = nn.Linear(neurons_list[0], neurons_list[1])
+        self.fc2 = nn.Linear(neurons_list[0], neurons_list[1], bias=True)
         # self.ln2 = nn.LayerNorm(neurons_list[1])
-        self.fc3 = nn.Linear(neurons_list[1], action_dim)
+        self.fc3 = nn.Linear(neurons_list[1], action_dim, bias=True)
         # self.ln3 = nn.LayerNorm(action_dim)
         # self.out = nn.Linear(256, action_dim)
         # self.out.weight.data.normal_(0, 0.1)
@@ -138,14 +140,14 @@ class TD3(object):
                  state_dim,
                  action_dim,
                  max_action,
+                 policy_noise,
+                 noise_clip,
                  learning_rate=LEARNING_RATE,
                  discount=0.99,
                  tau=0.005,
                  action_noise=0.1,
                  batch_size=BATCH_SIZE,
-                 policy_freq=TARGET_REPLACE_CNT,
-                 policy_noise=0.2,
-                 noise_clip=0.5):
+                 policy_freq=TARGET_REPLACE_CNT):
 
         self.critic = CriticNetwork(state_dim, action_dim).to(device)
         self.critic_target = copy.deepcopy(self.critic)
@@ -191,12 +193,15 @@ class TD3(object):
         transition = (s, a, r, s_, done_mask)
         self.memory.append(transition)
         self.memory_iterator += 1
+        # if self.memory_iterator % 100000 == 0:
+        #     print("memory_iterator:")
+        #     print(self.memory_iterator)
 
-    def sample_state(self, nr_of_steps_act, steps):
+    def sample_state(self, nr_of_steps_act, batch_size):
         states = []
         for _ in range(nr_of_steps_act):
             state = []
-            mini_batch = random.sample(self.memory, steps)
+            mini_batch = random.sample(self.memory, batch_size)
             for transition in mini_batch:
                 s, a, r, s_prime, done_mask = transition
                 state.append(s)
@@ -271,7 +276,7 @@ class TD3(object):
         critic_loss = 0
         for _ in range(n_crit):
             self.learn_iterator += 1
-            state, action, reward, next_state, not_done = self.sample_transition(batch_size)
+            state, action, reward, next_state, done = self.sample_transition(batch_size)
             all_target_Q = torch.zeros(batch_size, len(self.actors), device=device)
             # question
             with torch.no_grad():
@@ -285,7 +290,8 @@ class TD3(object):
                     all_target_Q[:, idx] = target_Q.squeeze()
 
                 target_Q = torch.max(all_target_Q, dim=1, keepdim=True)[0]
-                target_Q = reward + not_done * self.discount * target_Q
+                # target_Q = reward +  done * self.discount * target_Q
+                target_Q = reward + (1.0 - done) * self.discount * target_Q
 
             # Get current Q estimates
             current_Q1, current_Q2 = self.critic(state, action)

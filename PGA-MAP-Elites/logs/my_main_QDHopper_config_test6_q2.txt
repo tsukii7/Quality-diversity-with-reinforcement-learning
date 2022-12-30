@@ -1184,3 +1184,2446 @@ selection/variation
 critic.actors len:  1
 Train Time: 5.760159015655518
 Critic Loss: 0.04808848351240158
+[12000/100000]
+Max fitness: 966.200469396572
+Mean fitness: 276.1509481430887
+QD score: 147188.4553602663
+Number of solutions:533
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 6.178052663803101
+Critic Loss: 0.017562951892614365
+[12100/100000]
+Max fitness: 966.200469396572
+Mean fitness: 278.1024444215436
+QD score: 148784.80776552585
+Number of solutions:535
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.698193788528442
+Critic Loss: 0.020005296915769577
+[12200/100000]
+Max fitness: 966.200469396572
+Mean fitness: 279.22656800611765
+QD score: 149665.44045127905
+Number of solutions:536
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 6.231794118881226
+Critic Loss: 0.07948952913284302
+[12300/100000]
+Max fitness: 966.200469396572
+Mean fitness: 281.8828108167011
+QD score: 151089.1865977518
+Number of solutions:536
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.940240144729614
+Critic Loss: 0.04847465455532074
+[12400/100000]
+Max fitness: 966.200469396572
+Mean fitness: 285.853611825199
+QD score: 153217.53593830665
+Number of solutions:536
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 6.326315402984619
+Critic Loss: 0.011733148247003555
+[12500/100000]
+Max fitness: 966.200469396572
+Mean fitness: 287.5678872827922
+QD score: 154711.5233581422
+Number of solutions:538
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 6.178671360015869
+Critic Loss: 0.09905192255973816
+[12600/100000]
+Max fitness: 966.200469396572
+Mean fitness: 289.02259193313023
+QD score: 155494.15446002406
+Number of solutions:538
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.748103857040405
+Critic Loss: 0.01042957603931427
+[12700/100000]
+Max fitness: 966.200469396572
+Mean fitness: 290.2287768466579
+QD score: 156433.3107203486
+Number of solutions:539
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.744296073913574
+Critic Loss: 0.06879203021526337
+[12800/100000]
+Max fitness: 971.421239913593
+Mean fitness: 293.37586192791343
+QD score: 158716.34130300116
+Number of solutions:541
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 6.247766733169556
+Critic Loss: 0.08843255788087845
+[12900/100000]
+Max fitness: 971.421239913593
+Mean fitness: 294.71642848832175
+QD score: 160031.02066915872
+Number of solutions:543
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.978380441665649
+Critic Loss: 0.020068837329745293
+[13000/100000]
+Max fitness: 971.421239913593
+Mean fitness: 296.22690300775236
+QD score: 161443.66213922502
+Number of solutions:545
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.989600658416748
+Critic Loss: 0.26975929737091064
+[13100/100000]
+Max fitness: 971.421239913593
+Mean fitness: 298.8171462096233
+QD score: 163154.1618304543
+Number of solutions:546
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.865309953689575
+Critic Loss: 0.06198369339108467
+[13200/100000]
+Max fitness: 971.421239913593
+Mean fitness: 303.1745554416231
+QD score: 165836.48182656785
+Number of solutions:547
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.869776248931885
+Critic Loss: 0.011012926697731018
+[13300/100000]
+Max fitness: 971.421239913593
+Mean fitness: 305.0537711958847
+QD score: 167779.57415773658
+Number of solutions:550
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 6.313378572463989
+Critic Loss: 0.08532588928937912
+[13400/100000]
+Max fitness: 971.421239913593
+Mean fitness: 307.3906288377895
+QD score: 169679.62711845982
+Number of solutions:552
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 6.023733615875244
+Critic Loss: 0.010921346955001354
+[13500/100000]
+Max fitness: 971.421239913593
+Mean fitness: 308.9280278894741
+QD score: 170837.19942287917
+Number of solutions:553
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.84751296043396
+Critic Loss: 0.016239076852798462
+[13600/100000]
+Max fitness: 971.421239913593
+Mean fitness: 310.9551089113859
+QD score: 172580.08544581916
+Number of solutions:555
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.8822181224823
+Critic Loss: 0.022909708321094513
+[13700/100000]
+Max fitness: 971.421239913593
+Mean fitness: 311.93202075098196
+QD score: 173434.20353754598
+Number of solutions:556
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.515146493911743
+Critic Loss: 0.0231192484498024
+[13800/100000]
+Max fitness: 971.421239913593
+Mean fitness: 310.3156612943812
+QD score: 174707.7173087366
+Number of solutions:563
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.964520692825317
+Critic Loss: 0.01599409244954586
+[13900/100000]
+Max fitness: 971.421239913593
+Mean fitness: 311.8296593380962
+QD score: 175871.92786668625
+Number of solutions:564
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.560728311538696
+Critic Loss: 0.023434240370988846
+[14000/100000]
+Max fitness: 971.421239913593
+Mean fitness: 312.47112963024057
+QD score: 177171.1305003464
+Number of solutions:567
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.464806795120239
+Critic Loss: 0.05119539797306061
+[14100/100000]
+Max fitness: 971.421239913593
+Mean fitness: 315.84984629587444
+QD score: 179402.7126960567
+Number of solutions:568
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.5167248249053955
+Critic Loss: 0.05789731442928314
+[14200/100000]
+Max fitness: 971.421239913593
+Mean fitness: 317.0899305114828
+QD score: 181375.44025256817
+Number of solutions:572
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.517789363861084
+Critic Loss: 0.006013686768710613
+[14300/100000]
+Max fitness: 971.421239913593
+Mean fitness: 318.26849033007136
+QD score: 182367.8449591309
+Number of solutions:573
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.42803168296814
+Critic Loss: 0.04246968403458595
+[14400/100000]
+Max fitness: 971.421239913593
+Mean fitness: 317.40854433675446
+QD score: 182827.32153797057
+Number of solutions:576
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.418591022491455
+Critic Loss: 0.01789446547627449
+[14500/100000]
+Max fitness: 971.421239913593
+Mean fitness: 318.99365934094436
+QD score: 184378.33509906585
+Number of solutions:578
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.719746828079224
+Critic Loss: 0.07318755984306335
+[14600/100000]
+Max fitness: 971.421239913593
+Mean fitness: 320.1213068200713
+QD score: 185990.47926246142
+Number of solutions:581
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.271472930908203
+Critic Loss: 0.01092550065368414
+[14700/100000]
+Max fitness: 971.421239913593
+Mean fitness: 321.7698853796134
+QD score: 187270.073290935
+Number of solutions:582
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.6673383712768555
+Critic Loss: 0.008630529046058655
+[14800/100000]
+Max fitness: 971.421239913593
+Mean fitness: 322.3130611844505
+QD score: 189197.76691527243
+Number of solutions:587
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.575929403305054
+Critic Loss: 0.010049594566226006
+[14900/100000]
+Max fitness: 971.421239913593
+Mean fitness: 322.5914490528217
+QD score: 190006.363492112
+Number of solutions:589
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.458431243896484
+Critic Loss: 0.00943256076425314
+[15000/100000]
+Max fitness: 971.421239913593
+Mean fitness: 325.58841367756804
+QD score: 192422.75248344272
+Number of solutions:591
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.374250173568726
+Critic Loss: 0.032259322702884674
+[15100/100000]
+Max fitness: 971.421239913593
+Mean fitness: 323.91353869260536
+QD score: 193700.296138178
+Number of solutions:598
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.2528605461120605
+Critic Loss: 0.02416502684354782
+[15200/100000]
+Max fitness: 971.421239913593
+Mean fitness: 325.37817160406996
+QD score: 194901.5247908379
+Number of solutions:599
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.237322807312012
+Critic Loss: 0.026711804792284966
+[15300/100000]
+Max fitness: 971.421239913593
+Mean fitness: 325.0677435873618
+QD score: 195690.78163959182
+Number of solutions:602
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.236087799072266
+Critic Loss: 0.04769522696733475
+[15400/100000]
+Max fitness: 971.421239913593
+Mean fitness: 324.6454380321289
+QD score: 196410.49000943796
+Number of solutions:605
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.867475986480713
+Critic Loss: 0.019248832017183304
+[15500/100000]
+Max fitness: 971.421239913593
+Mean fitness: 324.70115511131235
+QD score: 197093.6011525666
+Number of solutions:607
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 7.52864408493042
+Critic Loss: 0.017227575182914734
+[15600/100000]
+Max fitness: 971.421239913593
+Mean fitness: 324.1881348838728
+QD score: 197430.57414427854
+Number of solutions:609
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 6.498770475387573
+Critic Loss: 0.08831867575645447
+[15700/100000]
+Max fitness: 971.421239913593
+Mean fitness: 323.9598616811106
+QD score: 198911.35507220193
+Number of solutions:614
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.762418270111084
+Critic Loss: 0.23830857872962952
+[15800/100000]
+Max fitness: 971.421239913593
+Mean fitness: 326.25416126530524
+QD score: 200972.56333942804
+Number of solutions:616
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.623948812484741
+Critic Loss: 0.021106289699673653
+[15900/100000]
+Max fitness: 971.421239913593
+Mean fitness: 328.6194798845134
+QD score: 202758.21908874478
+Number of solutions:617
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.867976665496826
+Critic Loss: 0.07090267539024353
+[16000/100000]
+Max fitness: 971.421239913593
+Mean fitness: 329.88963917368153
+QD score: 204201.68664850885
+Number of solutions:619
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.713751792907715
+Critic Loss: 0.01452687382698059
+[16100/100000]
+Max fitness: 971.421239913593
+Mean fitness: 328.93250107500563
+QD score: 205582.81317187852
+Number of solutions:625
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.755249977111816
+Critic Loss: 0.009934809058904648
+[16200/100000]
+Max fitness: 971.421239913593
+Mean fitness: 329.3946850853018
+QD score: 206201.0728633989
+Number of solutions:626
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.713683605194092
+Critic Loss: 0.01623925007879734
+[16300/100000]
+Max fitness: 971.421239913593
+Mean fitness: 329.1013269270789
+QD score: 207004.7346371326
+Number of solutions:629
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.2982213497161865
+Critic Loss: 0.019745226949453354
+[16400/100000]
+Max fitness: 971.421239913593
+Mean fitness: 330.67030226746743
+QD score: 208983.63103303942
+Number of solutions:632
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.2810821533203125
+Critic Loss: 0.12695756554603577
+[16500/100000]
+Max fitness: 971.421239913593
+Mean fitness: 330.44765531071124
+QD score: 209503.81346699092
+Number of solutions:634
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.2488086223602295
+Critic Loss: 0.02690664492547512
+[16600/100000]
+Max fitness: 971.421239913593
+Mean fitness: 330.7043203175965
+QD score: 210327.9477219914
+Number of solutions:636
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.314194440841675
+Critic Loss: 0.028470348566770554
+[16700/100000]
+Max fitness: 971.421239913593
+Mean fitness: 333.0915450376524
+QD score: 212179.31418898457
+Number of solutions:637
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.254009962081909
+Critic Loss: 0.03088095411658287
+[16800/100000]
+Max fitness: 971.421239913593
+Mean fitness: 333.6637250335708
+QD score: 212543.7928463846
+Number of solutions:637
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.194628000259399
+Critic Loss: 0.021446123719215393
+[16900/100000]
+Max fitness: 971.421239913593
+Mean fitness: 334.3816684492584
+QD score: 213001.12280217762
+Number of solutions:637
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.169682025909424
+Critic Loss: 0.08325066417455673
+[17000/100000]
+Max fitness: 971.421239913593
+Mean fitness: 333.9030756980072
+QD score: 213697.9684467246
+Number of solutions:640
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.154793977737427
+Critic Loss: 0.10670624673366547
+[17100/100000]
+Max fitness: 971.421239913593
+Mean fitness: 335.8945833520988
+QD score: 214972.53334534322
+Number of solutions:640
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 6.278752565383911
+Critic Loss: 0.08192338049411774
+[17200/100000]
+Max fitness: 971.421239913593
+Mean fitness: 336.0391171995087
+QD score: 215737.1132420846
+Number of solutions:642
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.934157609939575
+Critic Loss: 0.018203098326921463
+[17300/100000]
+Max fitness: 971.421239913593
+Mean fitness: 335.7415123120107
+QD score: 216217.53392893486
+Number of solutions:644
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 6.3411548137664795
+Critic Loss: 0.07625164836645126
+[17400/100000]
+Max fitness: 971.421239913593
+Mean fitness: 334.6608751688692
+QD score: 216525.58623425837
+Number of solutions:647
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.485796928405762
+Critic Loss: 0.02035222202539444
+[17500/100000]
+Max fitness: 971.421239913593
+Mean fitness: 334.42353156930113
+QD score: 217040.87198847643
+Number of solutions:649
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.199659824371338
+Critic Loss: 0.026664117351174355
+[17600/100000]
+Max fitness: 971.421239913593
+Mean fitness: 335.76261602164476
+QD score: 218245.70041406908
+Number of solutions:650
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.909948348999023
+Critic Loss: 0.013429852202534676
+[17700/100000]
+Max fitness: 971.421239913593
+Mean fitness: 334.61329328692284
+QD score: 219506.3203962214
+Number of solutions:656
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.215086936950684
+Critic Loss: 0.017260313034057617
+[17800/100000]
+Max fitness: 971.421239913593
+Mean fitness: 334.693513060066
+QD score: 220228.3315935234
+Number of solutions:658
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.282985210418701
+Critic Loss: 0.019138023257255554
+[17900/100000]
+Max fitness: 971.5619013835133
+Mean fitness: 334.4572617320499
+QD score: 221076.250004885
+Number of solutions:661
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.509661674499512
+Critic Loss: 0.02270304411649704
+[18000/100000]
+Max fitness: 971.5619013835133
+Mean fitness: 335.36000358666155
+QD score: 221672.9623707833
+Number of solutions:661
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.493343830108643
+Critic Loss: 0.01419689878821373
+[18100/100000]
+Max fitness: 971.5619013835133
+Mean fitness: 337.0201250677086
+QD score: 222770.3026697554
+Number of solutions:661
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.288825750350952
+Critic Loss: 0.04567083716392517
+[18200/100000]
+Max fitness: 971.5619013835133
+Mean fitness: 338.2020090296089
+QD score: 223551.5279685715
+Number of solutions:661
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.226590394973755
+Critic Loss: 0.07145681977272034
+[18300/100000]
+Max fitness: 971.5619013835133
+Mean fitness: 338.5809998610962
+QD score: 223802.04090818457
+Number of solutions:661
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.868295431137085
+Critic Loss: 0.029670383781194687
+[18400/100000]
+Max fitness: 971.5619013835133
+Mean fitness: 338.2754884423051
+QD score: 224276.6488372483
+Number of solutions:663
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 9.172330379486084
+Critic Loss: 0.047935083508491516
+[18500/100000]
+Max fitness: 971.5619013835133
+Mean fitness: 337.8418198934409
+QD score: 224664.8102291382
+Number of solutions:665
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 8.1266028881073
+Critic Loss: 0.10562215745449066
+[18600/100000]
+Max fitness: 971.5619013835133
+Mean fitness: 336.82614189069903
+QD score: 224999.86278298695
+Number of solutions:668
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 7.957520484924316
+Critic Loss: 0.02774772047996521
+[18700/100000]
+Max fitness: 971.5619013835133
+Mean fitness: 337.48241448357476
+QD score: 225438.25287502795
+Number of solutions:668
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 8.369921207427979
+Critic Loss: 0.04678628221154213
+[18800/100000]
+Max fitness: 971.5619013835133
+Mean fitness: 337.1784417798288
+QD score: 226246.73443426512
+Number of solutions:671
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 8.713979721069336
+Critic Loss: 0.026055261492729187
+[18900/100000]
+Max fitness: 971.5619013835133
+Mean fitness: 337.8397229638676
+QD score: 226690.45410875516
+Number of solutions:671
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 8.335476398468018
+Critic Loss: 0.01444162242114544
+[19000/100000]
+Max fitness: 971.5619013835133
+Mean fitness: 338.00200091661594
+QD score: 227813.34861779914
+Number of solutions:674
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 7.294609308242798
+Critic Loss: 0.12918245792388916
+[19100/100000]
+Max fitness: 971.5619013835133
+Mean fitness: 338.4327431504048
+QD score: 228103.66888337283
+Number of solutions:674
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 8.36857533454895
+Critic Loss: 0.13821066915988922
+[19200/100000]
+Max fitness: 971.5619013835133
+Mean fitness: 338.17654059448967
+QD score: 228607.34144187503
+Number of solutions:676
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 6.316784620285034
+Critic Loss: 0.016855513677001
+[19300/100000]
+Max fitness: 971.5619013835133
+Mean fitness: 338.55549852710914
+QD score: 229202.07250285288
+Number of solutions:677
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 7.512678384780884
+Critic Loss: 0.03780454397201538
+[19400/100000]
+Max fitness: 971.5619013835133
+Mean fitness: 338.2026079323894
+QD score: 229639.5707860924
+Number of solutions:679
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 6.238434076309204
+Critic Loss: 0.012765306979417801
+[19500/100000]
+Max fitness: 971.5619013835133
+Mean fitness: 337.99198058300567
+QD score: 229834.54679644384
+Number of solutions:680
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 7.9451353549957275
+Critic Loss: 0.07278382778167725
+[19600/100000]
+Max fitness: 973.1261718921339
+Mean fitness: 337.41746881479736
+QD score: 230118.7137316918
+Number of solutions:682
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 7.481884717941284
+Critic Loss: 0.015767022967338562
+[19700/100000]
+Max fitness: 973.1261718921339
+Mean fitness: 338.44530078780554
+QD score: 231158.1404380712
+Number of solutions:683
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 7.351051330566406
+Critic Loss: 0.01398013997823
+[19800/100000]
+Max fitness: 973.1261718921339
+Mean fitness: 339.8069258460686
+QD score: 232088.1303528649
+Number of solutions:683
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 7.872049570083618
+Critic Loss: 0.026670165359973907
+[19900/100000]
+Max fitness: 973.1261718921339
+Mean fitness: 339.6856563419231
+QD score: 232684.67459421733
+Number of solutions:685
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 7.401229381561279
+Critic Loss: 0.019168946892023087
+[20000/100000]
+Max fitness: 973.1261718921339
+Mean fitness: 340.59251289004743
+QD score: 233987.05635546258
+Number of solutions:687
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 6.774244070053101
+Critic Loss: 0.027204075828194618
+[20100/100000]
+Max fitness: 973.1261718921339
+Mean fitness: 340.5523325803519
+QD score: 234300.00481528213
+Number of solutions:688
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 7.542858839035034
+Critic Loss: 0.04773033410310745
+[20200/100000]
+Max fitness: 973.1261718921339
+Mean fitness: 341.0199599269903
+QD score: 234621.73242976933
+Number of solutions:688
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 6.327333927154541
+Critic Loss: 0.031159481033682823
+[20300/100000]
+Max fitness: 973.1261718921339
+Mean fitness: 340.75807040091865
+QD score: 234782.31050623296
+Number of solutions:689
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 6.933477878570557
+Critic Loss: 0.02223110944032669
+[20400/100000]
+Max fitness: 973.1261718921339
+Mean fitness: 340.708985953898
+QD score: 235089.2003081896
+Number of solutions:690
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 7.018556833267212
+Critic Loss: 0.12379735708236694
+[20500/100000]
+Max fitness: 973.1261718921339
+Mean fitness: 341.94108382343416
+QD score: 235939.34783816957
+Number of solutions:690
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.903269290924072
+Critic Loss: 0.0305514857172966
+[20600/100000]
+Max fitness: 973.1261718921339
+Mean fitness: 341.58590587448913
+QD score: 236377.44686514648
+Number of solutions:692
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 6.534069299697876
+Critic Loss: 0.022892287001013756
+[20700/100000]
+Max fitness: 973.1261718921339
+Mean fitness: 340.84579495830934
+QD score: 236887.82749602498
+Number of solutions:695
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 7.019869804382324
+Critic Loss: 0.10483948886394501
+[20800/100000]
+Max fitness: 973.1261718921339
+Mean fitness: 340.7760856282927
+QD score: 237520.93168292003
+Number of solutions:697
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.643250226974487
+Critic Loss: 0.017300698906183243
+[20900/100000]
+Max fitness: 973.723134393422
+Mean fitness: 342.0510657149071
+QD score: 238751.64386900517
+Number of solutions:698
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 6.025383234024048
+Critic Loss: 0.03638976812362671
+[21000/100000]
+Max fitness: 973.723134393422
+Mean fitness: 342.59180081287775
+QD score: 239471.66876820155
+Number of solutions:699
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 6.855574131011963
+Critic Loss: 0.03105497732758522
+[21100/100000]
+Max fitness: 973.723134393422
+Mean fitness: 342.5942807950582
+QD score: 239815.99655654072
+Number of solutions:700
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.957252502441406
+Critic Loss: 0.011094467714428902
+[21200/100000]
+Max fitness: 973.723134393422
+Mean fitness: 342.9371935931497
+QD score: 240056.03551520477
+Number of solutions:700
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 7.398561954498291
+Critic Loss: 0.08531296253204346
+[21300/100000]
+Max fitness: 973.723134393422
+Mean fitness: 342.6272745249507
+QD score: 240181.71944199043
+Number of solutions:701
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 7.196515798568726
+Critic Loss: 0.01869039237499237
+[21400/100000]
+Max fitness: 973.723134393422
+Mean fitness: 342.13295075733976
+QD score: 240519.46438240985
+Number of solutions:703
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.283483982086182
+Critic Loss: 0.014691254124045372
+[21500/100000]
+Max fitness: 973.723134393422
+Mean fitness: 342.7517643066418
+QD score: 240954.49030756918
+Number of solutions:703
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.353121995925903
+Critic Loss: 0.04405640438199043
+[21600/100000]
+Max fitness: 973.723134393422
+Mean fitness: 342.91864694809624
+QD score: 241071.80880451165
+Number of solutions:703
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.320425271987915
+Critic Loss: 0.03726079314947128
+[21700/100000]
+Max fitness: 973.723134393422
+Mean fitness: 343.296082165888
+QD score: 241337.14576261924
+Number of solutions:703
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.36791729927063
+Critic Loss: 0.14555612206459045
+[21800/100000]
+Max fitness: 973.723134393422
+Mean fitness: 344.0354529034642
+QD score: 241856.92339113532
+Number of solutions:703
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.313678503036499
+Critic Loss: 0.019895808771252632
+[21900/100000]
+Max fitness: 973.723134393422
+Mean fitness: 343.8596209403458
+QD score: 242077.17314200345
+Number of solutions:704
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.346877336502075
+Critic Loss: 0.022311601787805557
+[22000/100000]
+Max fitness: 973.723134393422
+Mean fitness: 343.61645108356896
+QD score: 242249.5980139161
+Number of solutions:705
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.425184488296509
+Critic Loss: 0.024082282558083534
+[22100/100000]
+Max fitness: 973.723134393422
+Mean fitness: 343.7120861471475
+QD score: 242317.020733739
+Number of solutions:705
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.554126501083374
+Critic Loss: 0.016990043222904205
+[22200/100000]
+Max fitness: 973.723134393422
+Mean fitness: 343.8342000788696
+QD score: 242403.11105560308
+Number of solutions:705
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.47256326675415
+Critic Loss: 0.12311624735593796
+[22300/100000]
+Max fitness: 973.723134393422
+Mean fitness: 343.5744194316723
+QD score: 242907.11453819234
+Number of solutions:707
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.316239356994629
+Critic Loss: 0.028789673000574112
+[22400/100000]
+Max fitness: 973.723134393422
+Mean fitness: 344.9886093062414
+QD score: 243906.94677951268
+Number of solutions:707
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.468419313430786
+Critic Loss: 0.014627117663621902
+[22500/100000]
+Max fitness: 973.723134393422
+Mean fitness: 345.1286496814025
+QD score: 244005.9553247516
+Number of solutions:707
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.830651521682739
+Critic Loss: 0.06071887165307999
+[22600/100000]
+Max fitness: 973.723134393422
+Mean fitness: 345.9939516242382
+QD score: 244617.72379833643
+Number of solutions:707
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.449012041091919
+Critic Loss: 0.0327124297618866
+[22700/100000]
+Max fitness: 973.723134393422
+Mean fitness: 345.35007905416154
+QD score: 244853.20604940053
+Number of solutions:709
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.780572891235352
+Critic Loss: 0.032134637236595154
+[22800/100000]
+Max fitness: 973.723134393422
+Mean fitness: 345.1061877860523
+QD score: 245025.39332809715
+Number of solutions:710
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.542022943496704
+Critic Loss: 0.01752946712076664
+[22900/100000]
+Max fitness: 973.723134393422
+Mean fitness: 344.8184818736184
+QD score: 245165.94061214267
+Number of solutions:711
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.637145757675171
+Critic Loss: 0.016334660351276398
+[23000/100000]
+Max fitness: 973.723134393422
+Mean fitness: 344.585519104629
+QD score: 245344.88960249582
+Number of solutions:712
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 7.110519170761108
+Critic Loss: 0.046095289289951324
+[23100/100000]
+Max fitness: 973.723134393422
+Mean fitness: 344.8719705044798
+QD score: 245548.84299918963
+Number of solutions:712
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 7.068061113357544
+Critic Loss: 0.011696159839630127
+[23200/100000]
+Max fitness: 973.723134393422
+Mean fitness: 346.263299449411
+QD score: 246539.46920798064
+Number of solutions:712
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.396858215332031
+Critic Loss: 0.023777315393090248
+[23300/100000]
+Max fitness: 973.723134393422
+Mean fitness: 346.5805645965167
+QD score: 246765.3619927199
+Number of solutions:712
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.243156909942627
+Critic Loss: 0.01801283098757267
+[23400/100000]
+Max fitness: 973.723134393422
+Mean fitness: 347.39656760249636
+QD score: 247693.7527005799
+Number of solutions:713
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.294990539550781
+Critic Loss: 0.020151536911725998
+[23500/100000]
+Max fitness: 973.723134393422
+Mean fitness: 348.26349696851435
+QD score: 248311.87333855074
+Number of solutions:713
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.263083219528198
+Critic Loss: 0.05122813582420349
+[23600/100000]
+Max fitness: 973.723134393422
+Mean fitness: 348.3464121614983
+QD score: 248370.9918711483
+Number of solutions:713
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.928817272186279
+Critic Loss: 0.025802766904234886
+[23700/100000]
+Max fitness: 973.723134393422
+Mean fitness: 347.98850061018186
+QD score: 248463.78943566984
+Number of solutions:714
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 6.592926740646362
+Critic Loss: 0.009087528102099895
+[23800/100000]
+Max fitness: 973.723134393422
+Mean fitness: 347.77841732131697
+QD score: 248661.56838474164
+Number of solutions:715
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 8.119866847991943
+Critic Loss: 0.010283910669386387
+[23900/100000]
+Max fitness: 973.723134393422
+Mean fitness: 349.15739296313603
+QD score: 249647.53596864227
+Number of solutions:715
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 8.711588621139526
+Critic Loss: 0.021045353263616562
+[24000/100000]
+Max fitness: 973.723134393422
+Mean fitness: 350.02071489883537
+QD score: 250264.81115266727
+Number of solutions:715
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.750503301620483
+Critic Loss: 0.3992161154747009
+[24100/100000]
+Max fitness: 973.723134393422
+Mean fitness: 350.5162534924901
+QD score: 250619.1212471304
+Number of solutions:715
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.715944528579712
+Critic Loss: 0.02049381285905838
+[24200/100000]
+Max fitness: 973.723134393422
+Mean fitness: 350.74941942274364
+QD score: 250785.8348872617
+Number of solutions:715
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.863669157028198
+Critic Loss: 0.025104016065597534
+[24300/100000]
+Max fitness: 973.723134393422
+Mean fitness: 350.9061188293053
+QD score: 251248.78108178257
+Number of solutions:716
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.960711717605591
+Critic Loss: 0.030814331024885178
+[24400/100000]
+Max fitness: 973.723134393422
+Mean fitness: 351.4586492571985
+QD score: 251644.39286815413
+Number of solutions:716
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.430208921432495
+Critic Loss: 0.01452664565294981
+[24500/100000]
+Max fitness: 973.723134393422
+Mean fitness: 352.51670349162634
+QD score: 252401.95970000446
+Number of solutions:716
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.6918933391571045
+Critic Loss: 0.017459679394960403
+[24600/100000]
+Max fitness: 973.723134393422
+Mean fitness: 353.141261095224
+QD score: 253202.28420527562
+Number of solutions:717
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.587620735168457
+Critic Loss: 0.041172828525304794
+[24700/100000]
+Max fitness: 973.723134393422
+Mean fitness: 353.51274998112933
+QD score: 253468.64173646973
+Number of solutions:717
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.491368293762207
+Critic Loss: 0.013182010501623154
+[24800/100000]
+Max fitness: 973.723134393422
+Mean fitness: 354.4871854694196
+QD score: 254167.31198157385
+Number of solutions:717
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.46630334854126
+Critic Loss: 0.02552228607237339
+[24900/100000]
+Max fitness: 973.723134393422
+Mean fitness: 354.7500506701166
+QD score: 254710.53638114373
+Number of solutions:718
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.429206132888794
+Critic Loss: 0.016928691416978836
+[25000/100000]
+Max fitness: 973.723134393422
+Mean fitness: 355.09048525441136
+QD score: 254954.96841266734
+Number of solutions:718
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.5836100578308105
+Critic Loss: 0.019466256722807884
+[25100/100000]
+Max fitness: 973.723134393422
+Mean fitness: 355.7718595628253
+QD score: 255444.19516610855
+Number of solutions:718
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.333956956863403
+Critic Loss: 0.01404961571097374
+[25200/100000]
+Max fitness: 973.723134393422
+Mean fitness: 355.81927124194584
+QD score: 255834.05602295906
+Number of solutions:719
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.349998950958252
+Critic Loss: 0.016849583014845848
+[25300/100000]
+Max fitness: 973.723134393422
+Mean fitness: 355.5949779764452
+QD score: 256028.38414304054
+Number of solutions:720
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.76809287071228
+Critic Loss: 0.034811604768037796
+[25400/100000]
+Max fitness: 973.723134393422
+Mean fitness: 355.72872859199356
+QD score: 256124.68458623535
+Number of solutions:720
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.943551778793335
+Critic Loss: 0.011925251223146915
+[25500/100000]
+Max fitness: 973.723134393422
+Mean fitness: 356.04589276582016
+QD score: 256353.04279139053
+Number of solutions:720
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.493373870849609
+Critic Loss: 0.024379629641771317
+[25600/100000]
+Max fitness: 973.723134393422
+Mean fitness: 355.88401464071643
+QD score: 256592.37455595654
+Number of solutions:721
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.788144826889038
+Critic Loss: 0.0138237364590168
+[25700/100000]
+Max fitness: 973.723134393422
+Mean fitness: 356.62463356178085
+QD score: 257126.36079804398
+Number of solutions:721
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.244723081588745
+Critic Loss: 0.01741732470691204
+[25800/100000]
+Max fitness: 973.723134393422
+Mean fitness: 356.5541480122567
+QD score: 257432.09486484932
+Number of solutions:722
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.617698907852173
+Critic Loss: 0.02584570087492466
+[25900/100000]
+Max fitness: 973.723134393422
+Mean fitness: 357.13589584351115
+QD score: 257852.11679901506
+Number of solutions:722
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.56656551361084
+Critic Loss: 0.023443521931767464
+[26000/100000]
+Max fitness: 973.723134393422
+Mean fitness: 357.1758462954804
+QD score: 258595.31271792782
+Number of solutions:724
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.628728151321411
+Critic Loss: 0.031139928847551346
+[26100/100000]
+Max fitness: 973.723134393422
+Mean fitness: 358.8430017482719
+QD score: 259802.33326574884
+Number of solutions:724
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.741021394729614
+Critic Loss: 0.015958258882164955
+[26200/100000]
+Max fitness: 973.723134393422
+Mean fitness: 359.1615906492988
+QD score: 260032.9916300923
+Number of solutions:724
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.353006362915039
+Critic Loss: 0.017681168392300606
+[26300/100000]
+Max fitness: 973.723134393422
+Mean fitness: 360.2189715979403
+QD score: 260798.5354369088
+Number of solutions:724
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.605667591094971
+Critic Loss: 0.03299277275800705
+[26400/100000]
+Max fitness: 973.723134393422
+Mean fitness: 360.42161126589485
+QD score: 260945.24655650786
+Number of solutions:724
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.854318141937256
+Critic Loss: 0.009038541465997696
+[26500/100000]
+Max fitness: 974.7123769698205
+Mean fitness: 360.8420009951888
+QD score: 261249.6087205167
+Number of solutions:724
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.28182053565979
+Critic Loss: 0.04690574109554291
+[26600/100000]
+Max fitness: 974.7123769698205
+Mean fitness: 361.73206480411886
+QD score: 262255.74698298617
+Number of solutions:725
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.362030267715454
+Critic Loss: 0.0314151868224144
+[26700/100000]
+Max fitness: 974.7123769698205
+Mean fitness: 362.36907153115254
+QD score: 262717.5768600856
+Number of solutions:725
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.362029552459717
+Critic Loss: 0.037879470735788345
+[26800/100000]
+Max fitness: 974.7123769698205
+Mean fitness: 362.5375045624777
+QD score: 262839.6908077963
+Number of solutions:725
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.552529811859131
+Critic Loss: 0.014724774286150932
+[26900/100000]
+Max fitness: 974.7123769698205
+Mean fitness: 362.9636819079659
+QD score: 263148.66938327526
+Number of solutions:725
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.400129556655884
+Critic Loss: 0.00702429935336113
+[27000/100000]
+Max fitness: 974.7123769698205
+Mean fitness: 362.6237692028255
+QD score: 263264.8564412513
+Number of solutions:726
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.631735801696777
+Critic Loss: 0.010484287515282631
+[27100/100000]
+Max fitness: 974.7123769698205
+Mean fitness: 363.3021941184541
+QD score: 263757.3929299977
+Number of solutions:726
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.339972734451294
+Critic Loss: 0.019455958157777786
+[27200/100000]
+Max fitness: 974.7123769698205
+Mean fitness: 363.7037576113071
+QD score: 264048.92802580894
+Number of solutions:726
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.386093854904175
+Critic Loss: 0.009622156620025635
+[27300/100000]
+Max fitness: 974.7123769698205
+Mean fitness: 364.3289816636538
+QD score: 264502.84068781266
+Number of solutions:726
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.443243026733398
+Critic Loss: 0.017621971666812897
+[27400/100000]
+Max fitness: 974.7123769698205
+Mean fitness: 364.5025048582032
+QD score: 264628.81852705556
+Number of solutions:726
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.4642980098724365
+Critic Loss: 0.007964286021888256
+[27500/100000]
+Max fitness: 974.7123769698205
+Mean fitness: 365.33522616555433
+QD score: 265233.3741961924
+Number of solutions:726
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.421184539794922
+Critic Loss: 0.01028556376695633
+[27600/100000]
+Max fitness: 974.7123769698205
+Mean fitness: 365.5042050214119
+QD score: 265356.05284554505
+Number of solutions:726
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.447252988815308
+Critic Loss: 0.020925287157297134
+[27700/100000]
+Max fitness: 974.7123769698205
+Mean fitness: 366.1160959124482
+QD score: 265800.2856324374
+Number of solutions:726
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.481343030929565
+Critic Loss: 0.01689298078417778
+[27800/100000]
+Max fitness: 974.7123769698205
+Mean fitness: 366.4123124893686
+QD score: 266015.3388672816
+Number of solutions:726
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.4993896484375
+Critic Loss: 0.020445561036467552
+[27900/100000]
+Max fitness: 974.7123769698205
+Mean fitness: 366.1344057290062
+QD score: 266179.7129649875
+Number of solutions:727
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 6.088932514190674
+Critic Loss: 0.012880591675639153
+[28000/100000]
+Max fitness: 974.7123769698205
+Mean fitness: 366.61903409687767
+QD score: 266898.65682252694
+Number of solutions:728
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.410156965255737
+Critic Loss: 0.018059400841593742
+[28100/100000]
+Max fitness: 974.7123769698205
+Mean fitness: 366.8205154312795
+QD score: 267045.3352339715
+Number of solutions:728
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.394114017486572
+Critic Loss: 0.02373790182173252
+[28200/100000]
+Max fitness: 974.7123769698205
+Mean fitness: 366.0140003489519
+QD score: 267190.2202547349
+Number of solutions:730
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.782129764556885
+Critic Loss: 0.01950678601861
+[28300/100000]
+Max fitness: 974.7123769698205
+Mean fitness: 366.8005702426951
+QD score: 267764.4162771674
+Number of solutions:730
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.400129795074463
+Critic Loss: 0.011699419468641281
+[28400/100000]
+Max fitness: 974.7123769698205
+Mean fitness: 366.7737018685578
+QD score: 268111.57606591575
+Number of solutions:731
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.372056484222412
+Critic Loss: 0.01536461990326643
+[28500/100000]
+Max fitness: 974.7123769698205
+Mean fitness: 366.52568456304516
+QD score: 268296.80110014905
+Number of solutions:732
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.293852090835571
+Critic Loss: 0.02078118920326233
+[28600/100000]
+Max fitness: 974.7123769698205
+Mean fitness: 366.5779419970431
+QD score: 268335.0535418356
+Number of solutions:732
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.321925640106201
+Critic Loss: 0.021846048533916473
+[28700/100000]
+Max fitness: 974.7123769698205
+Mean fitness: 367.39032636511683
+QD score: 268929.7188992655
+Number of solutions:732
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.318917512893677
+Critic Loss: 0.019294820725917816
+[28800/100000]
+Max fitness: 974.7123769698205
+Mean fitness: 367.46524492758834
+QD score: 268984.5592869947
+Number of solutions:732
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.3189170360565186
+Critic Loss: 0.020409833639860153
+[28900/100000]
+Max fitness: 991.8838449995218
+Mean fitness: 368.2044565764331
+QD score: 269525.662213949
+Number of solutions:732
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.288838863372803
+Critic Loss: 0.03501085191965103
+[29000/100000]
+Max fitness: 991.8838449995218
+Mean fitness: 368.8342911090856
+QD score: 270355.53538295976
+Number of solutions:733
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.307888507843018
+Critic Loss: 0.024646712467074394
+[29100/100000]
+Max fitness: 991.8838449995218
+Mean fitness: 369.79784854461116
+QD score: 271061.82298319996
+Number of solutions:733
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.281819820404053
+Critic Loss: 0.021163657307624817
+[29200/100000]
+Max fitness: 991.8838449995218
+Mean fitness: 370.790582997108
+QD score: 271789.4973368802
+Number of solutions:733
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.346991062164307
+Critic Loss: 0.015354392118752003
+[29300/100000]
+Max fitness: 991.8838449995218
+Mean fitness: 371.66463443236836
+QD score: 272430.177038926
+Number of solutions:733
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.321924924850464
+Critic Loss: 0.023118315264582634
+[29400/100000]
+Max fitness: 991.8838449995218
+Mean fitness: 371.45012691336933
+QD score: 272644.3931544131
+Number of solutions:734
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.296859979629517
+Critic Loss: 0.011446604505181313
+[29500/100000]
+Max fitness: 991.8838449995218
+Mean fitness: 371.5431132227296
+QD score: 273084.18821870623
+Number of solutions:735
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.332954168319702
+Critic Loss: 0.020226696506142616
+[29600/100000]
+Max fitness: 991.8838449995218
+Mean fitness: 371.913713915786
+QD score: 273356.5797281027
+Number of solutions:735
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.724979639053345
+Critic Loss: 0.01797417178750038
+[29700/100000]
+Max fitness: 991.8838449995218
+Mean fitness: 371.8283487780134
+QD score: 273665.66470061784
+Number of solutions:736
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.298864364624023
+Critic Loss: 0.050880756229162216
+[29800/100000]
+Max fitness: 991.8838449995218
+Mean fitness: 373.8415586629076
+QD score: 275147.3871759
+Number of solutions:736
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.772103548049927
+Critic Loss: 0.016310617327690125
+[29900/100000]
+Max fitness: 991.8838449995218
+Mean fitness: 374.5453497163164
+QD score: 275665.3773912089
+Number of solutions:736
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.427200555801392
+Critic Loss: 0.06267814338207245
+[30000/100000]
+Max fitness: 991.8838449995218
+Mean fitness: 375.3912479737208
+QD score: 276287.9585086585
+Number of solutions:736
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.403137683868408
+Critic Loss: 0.012519821524620056
+[30100/100000]
+Max fitness: 991.8838449995218
+Mean fitness: 376.06607188243555
+QD score: 276784.6289054726
+Number of solutions:736
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.353102922439575
+Critic Loss: 0.04028615355491638
+[30200/100000]
+Max fitness: 991.8838449995218
+Mean fitness: 376.2918633796895
+QD score: 276950.8114474515
+Number of solutions:736
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 6.569187641143799
+Critic Loss: 0.014571799896657467
+[30300/100000]
+Max fitness: 991.8838449995218
+Mean fitness: 376.56140937095466
+QD score: 277149.1972970226
+Number of solutions:736
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.41327691078186
+Critic Loss: 0.04265182465314865
+[30400/100000]
+Max fitness: 991.8838449995218
+Mean fitness: 377.0992205090828
+QD score: 277545.0262946849
+Number of solutions:736
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.506428241729736
+Critic Loss: 0.0100883012637496
+[30500/100000]
+Max fitness: 991.8838449995218
+Mean fitness: 377.6174415836154
+QD score: 277926.43700554094
+Number of solutions:736
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.447753429412842
+Critic Loss: 0.04026598110795021
+[30600/100000]
+Max fitness: 991.8838449995218
+Mean fitness: 377.71832002754263
+QD score: 278000.68354027136
+Number of solutions:736
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.910465478897095
+Critic Loss: 0.019746774807572365
+[30700/100000]
+Max fitness: 991.8838449995218
+Mean fitness: 378.0673916333546
+QD score: 278635.6676337823
+Number of solutions:737
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.271794319152832
+Critic Loss: 0.03767738491296768
+[30800/100000]
+Max fitness: 991.8838449995218
+Mean fitness: 378.2359770352623
+QD score: 279138.1510520236
+Number of solutions:738
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.704082727432251
+Critic Loss: 0.02013922482728958
+[30900/100000]
+Max fitness: 991.8838449995218
+Mean fitness: 377.89877928875774
+QD score: 279267.19789439195
+Number of solutions:739
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.693898677825928
+Critic Loss: 0.009601214900612831
+[31000/100000]
+Max fitness: 991.8838449995218
+Mean fitness: 379.1583428567527
+QD score: 280198.01537114027
+Number of solutions:739
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.472318887710571
+Critic Loss: 0.02026195451617241
+[31100/100000]
+Max fitness: 991.8838449995218
+Mean fitness: 379.40916238077983
+QD score: 280383.3709993963
+Number of solutions:739
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.512423753738403
+Critic Loss: 0.013443742878735065
+[31200/100000]
+Max fitness: 991.8838449995218
+Mean fitness: 379.692149338562
+QD score: 280592.4983611973
+Number of solutions:739
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.224670648574829
+Critic Loss: 0.008140482939779758
+[31300/100000]
+Max fitness: 991.8838449995218
+Mean fitness: 380.7208078455668
+QD score: 281352.6769978739
+Number of solutions:739
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.441237449645996
+Critic Loss: 0.01723301224410534
+[31400/100000]
+Max fitness: 991.8838449995218
+Mean fitness: 380.77970380037493
+QD score: 281396.2011084771
+Number of solutions:739
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.52245020866394
+Critic Loss: 0.07934345304965973
+[31500/100000]
+Max fitness: 991.8838449995218
+Mean fitness: 381.3201169921891
+QD score: 281795.56645722775
+Number of solutions:739
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.570575714111328
+Critic Loss: 0.009904447942972183
+[31600/100000]
+Max fitness: 991.8838449995218
+Mean fitness: 381.32975756129554
+QD score: 282184.0205953587
+Number of solutions:740
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.467305660247803
+Critic Loss: 0.008318688720464706
+[31700/100000]
+Max fitness: 991.8838449995218
+Mean fitness: 382.70842129127846
+QD score: 283204.23175554606
+Number of solutions:740
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.345987796783447
+Critic Loss: 0.039463192224502563
+[31800/100000]
+Max fitness: 991.8838449995218
+Mean fitness: 381.9080139861053
+QD score: 283375.7463776901
+Number of solutions:742
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.454128742218018
+Critic Loss: 0.016115259379148483
+[31900/100000]
+Max fitness: 991.8838449995218
+Mean fitness: 381.96104451517783
+QD score: 283415.09503026196
+Number of solutions:742
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.506407976150513
+Critic Loss: 0.024257328361272812
+[32000/100000]
+Max fitness: 992.3170023923676
+Mean fitness: 382.94802907461315
+QD score: 284147.43757336296
+Number of solutions:742
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.568700790405273
+Critic Loss: 0.015266334637999535
+[32100/100000]
+Max fitness: 992.3170023923676
+Mean fitness: 383.24754087199705
+QD score: 284369.6753270218
+Number of solutions:742
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.542058706283569
+Critic Loss: 0.012567518278956413
+[32200/100000]
+Max fitness: 992.3170023923676
+Mean fitness: 383.43010953782783
+QD score: 284505.14127706824
+Number of solutions:742
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.466721296310425
+Critic Loss: 0.022397777065634727
+[32300/100000]
+Max fitness: 992.3170023923676
+Mean fitness: 383.50142251044224
+QD score: 284941.5569252586
+Number of solutions:743
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.659433841705322
+Critic Loss: 0.013329082168638706
+[32400/100000]
+Max fitness: 992.3170023923676
+Mean fitness: 384.0726029765906
+QD score: 285365.9440116068
+Number of solutions:743
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.465265512466431
+Critic Loss: 0.0335659459233284
+[32500/100000]
+Max fitness: 992.3170023923676
+Mean fitness: 384.4371386662628
+QD score: 285636.7940290333
+Number of solutions:743
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.754946231842041
+Critic Loss: 0.027251597493886948
+[32600/100000]
+Max fitness: 992.3170023923676
+Mean fitness: 384.480995715992
+QD score: 285669.379816982
+Number of solutions:743
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.314907073974609
+Critic Loss: 0.014255870133638382
+[32700/100000]
+Max fitness: 992.3170023923676
+Mean fitness: 384.5278842851522
+QD score: 285704.2180238681
+Number of solutions:743
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.279814720153809
+Critic Loss: 0.013877714052796364
+[32800/100000]
+Max fitness: 993.6188870941395
+Mean fitness: 384.6603046906216
+QD score: 286187.2666898225
+Number of solutions:744
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.61785888671875
+Critic Loss: 0.015943223610520363
+[32900/100000]
+Max fitness: 993.6188870941395
+Mean fitness: 385.3128714030706
+QD score: 286672.7763238845
+Number of solutions:744
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.30819845199585
+Critic Loss: 0.009435581043362617
+[33000/100000]
+Max fitness: 993.6188870941395
+Mean fitness: 385.45730910408747
+QD score: 286780.2379734411
+Number of solutions:744
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.60029411315918
+Critic Loss: 0.01976742222905159
+[33100/100000]
+Max fitness: 993.6188870941395
+Mean fitness: 385.5496694031737
+QD score: 286848.95403596124
+Number of solutions:744
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.630376100540161
+Critic Loss: 0.026301374658942223
+[33200/100000]
+Max fitness: 993.6188870941395
+Mean fitness: 385.8378537560509
+QD score: 287063.36319450184
+Number of solutions:744
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.281820297241211
+Critic Loss: 0.017510682344436646
+[33300/100000]
+Max fitness: 993.6188870941395
+Mean fitness: 385.9973236040304
+QD score: 287182.0087613986
+Number of solutions:744
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.200124263763428
+Critic Loss: 0.010310989804565907
+[33400/100000]
+Max fitness: 993.6188870941395
+Mean fitness: 386.56202276598486
+QD score: 287602.14493789274
+Number of solutions:744
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.315900087356567
+Critic Loss: 0.011251691728830338
+[33500/100000]
+Max fitness: 993.6188870941395
+Mean fitness: 387.02260126480826
+QD score: 288331.83794228215
+Number of solutions:745
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.556394815444946
+Critic Loss: 0.038290608674287796
+[33600/100000]
+Max fitness: 993.6188870941395
+Mean fitness: 387.2117238897739
+QD score: 288472.73429788154
+Number of solutions:745
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 6.018203258514404
+Critic Loss: 0.012041017413139343
+[33700/100000]
+Max fitness: 993.6188870941395
+Mean fitness: 387.34099050966745
+QD score: 288569.03792970226
+Number of solutions:745
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.506755352020264
+Critic Loss: 0.010006307624280453
+[33800/100000]
+Max fitness: 993.6188870941395
+Mean fitness: 386.82456205573106
+QD score: 288957.9478556311
+Number of solutions:747
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.85732889175415
+Critic Loss: 0.010866457596421242
+[33900/100000]
+Max fitness: 993.6188870941395
+Mean fitness: 386.475074771793
+QD score: 289083.3559293012
+Number of solutions:748
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.603383302688599
+Critic Loss: 0.040352627635002136
+[34000/100000]
+Max fitness: 993.6188870941395
+Mean fitness: 386.1897246359472
+QD score: 289642.2934769604
+Number of solutions:750
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.548518657684326
+Critic Loss: 0.02085353247821331
+[34100/100000]
+Max fitness: 993.6188870941395
+Mean fitness: 386.2891093490404
+QD score: 289716.8320117803
+Number of solutions:750
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.359022378921509
+Critic Loss: 0.0548623725771904
+[34200/100000]
+Max fitness: 993.6188870941395
+Mean fitness: 386.3801613751289
+QD score: 289785.1210313467
+Number of solutions:750
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.2686927318573
+Critic Loss: 0.06210422143340111
+[34300/100000]
+Max fitness: 993.6188870941395
+Mean fitness: 386.54387276875934
+QD score: 290294.44844933826
+Number of solutions:751
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.214435577392578
+Critic Loss: 0.02271462231874466
+[34400/100000]
+Max fitness: 993.6188870941395
+Mean fitness: 386.12393729882467
+QD score: 290365.20084871614
+Number of solutions:752
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.287836313247681
+Critic Loss: 0.0346229150891304
+[34500/100000]
+Max fitness: 993.6188870941395
+Mean fitness: 386.3468730831611
+QD score: 290532.84855853714
+Number of solutions:752
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.427458763122559
+Critic Loss: 0.014952891506254673
+[34600/100000]
+Max fitness: 993.6188870941395
+Mean fitness: 386.4707786090839
+QD score: 290626.02551403106
+Number of solutions:752
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.41216254234314
+Critic Loss: 0.019497402012348175
+[34700/100000]
+Max fitness: 993.6188870941395
+Mean fitness: 386.67607390254744
+QD score: 290780.4075747157
+Number of solutions:752
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.44925856590271
+Critic Loss: 0.01912488043308258
+[34800/100000]
+Max fitness: 993.6188870941395
+Mean fitness: 386.71821980017296
+QD score: 290812.10128973005
+Number of solutions:752
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.430208683013916
+Critic Loss: 0.01581297628581524
+[34900/100000]
+Max fitness: 993.6188870941395
+Mean fitness: 386.9447844659671
+QD score: 290982.47791840724
+Number of solutions:752
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 6.07690167427063
+Critic Loss: 0.015980800613760948
+[35000/100000]
+Max fitness: 993.6188870941395
+Mean fitness: 387.7250728129533
+QD score: 291569.25475534087
+Number of solutions:752
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.569573640823364
+Critic Loss: 0.02297535166144371
+[35100/100000]
+Max fitness: 993.6188870941395
+Mean fitness: 388.07422849461386
+QD score: 291831.8198279496
+Number of solutions:752
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.480340003967285
+Critic Loss: 0.03545074537396431
+[35200/100000]
+Max fitness: 993.6188870941395
+Mean fitness: 388.73631060012787
+QD score: 292329.70557129616
+Number of solutions:752
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.445234298706055
+Critic Loss: 0.029414232820272446
+[35300/100000]
+Max fitness: 993.6188870941395
+Mean fitness: 389.1407482737022
+QD score: 292633.84270182403
+Number of solutions:752
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 6.467924356460571
+Critic Loss: 0.025846470147371292
+[35400/100000]
+Max fitness: 993.6188870941395
+Mean fitness: 388.91176220193046
+QD score: 292850.55693805363
+Number of solutions:753
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.6918933391571045
+Critic Loss: 0.06729581952095032
+[35500/100000]
+Max fitness: 993.6188870941395
+Mean fitness: 389.1082235900651
+QD score: 293387.6005869091
+Number of solutions:754
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.509415864944458
+Critic Loss: 0.025682009756565094
+[35600/100000]
+Max fitness: 993.6188870941395
+Mean fitness: 389.8971359261419
+QD score: 293982.440488311
+Number of solutions:754
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.665889263153076
+Critic Loss: 0.01011575572192669
+[35700/100000]
+Max fitness: 993.6188870941395
+Mean fitness: 389.9290961074184
+QD score: 294006.5384649935
+Number of solutions:754
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.54049825668335
+Critic Loss: 0.008755217306315899
+[35800/100000]
+Max fitness: 993.6188870941395
+Mean fitness: 390.14597653202276
+QD score: 294170.06630514516
+Number of solutions:754
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.461737632751465
+Critic Loss: 0.035526566207408905
+[35900/100000]
+Max fitness: 993.6188870941395
+Mean fitness: 390.8804852848146
+QD score: 294723.8859047502
+Number of solutions:754
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.5435051918029785
+Critic Loss: 0.04199853911995888
+[36000/100000]
+Max fitness: 993.6188870941395
+Mean fitness: 390.5927792155324
+QD score: 294897.548307727
+Number of solutions:755
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.778119087219238
+Critic Loss: 0.025249557569622993
+[36100/100000]
+Max fitness: 993.6188870941395
+Mean fitness: 390.22292773302104
+QD score: 295008.5333661639
+Number of solutions:756
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.428203344345093
+Critic Loss: 0.019991474226117134
+[36200/100000]
+Max fitness: 993.6188870941395
+Mean fitness: 390.33699247200343
+QD score: 295094.7663088346
+Number of solutions:756
+Number of species:1
+selection/variation
+critic.actors len:  1
+Train Time: 5.761074781417847
+Critic Loss: 0.01915276050567627
+[36300/100000]
+Max fitness: 993.6188870941395
+Mean fitness: 390.76697460135404
+QD score: 295419.83279862365
+Number of solutions:756
+Number of species:1
+selection/variation
+forrtl: error (200): program aborting due to control-C event
+Image              PC                Routine            Line        Source             
+libifcoremd.dll    00007FFEE4A43B58  Unknown               Unknown  Unknown
+KERNELBASE.dll     00007FFF290E53D5  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FFF29B85550  Unknown               Unknown  Unknown
+ntdll.dll          00007FFF2B52485B  Unknown               Unknown  Unknown
