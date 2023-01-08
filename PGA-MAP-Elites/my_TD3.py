@@ -43,9 +43,9 @@ def weight_init(m):
         #     nn.init.constant_(m.bias, 0.0)
     if isinstance(m, nn.LayerNorm):
         pass
-    if isinstance(m, nn.BatchNorm1d):
-        nn.init.constant_(m.weight, 1.0)
-        nn.init.constant_(m.bias, 0.0)
+    # if isinstance(m, nn.BatchNorm1d):
+    #     nn.init.constant_(m.weight, 1.0)
+    #     nn.init.constant_(m.bias, 0.0)
 
 
 class ActorNetwork(nn.Module):
