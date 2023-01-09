@@ -132,6 +132,8 @@ if __name__ == "__main__":
 
     # map-elites loop
     n_evals = 0
+    max_fitness = -sys.maxsize
+    best_actor = None
     while n_evals < args.max_evals:
         print(f"Number of solutions:{len(archive)}")
         print(f"Number of species:{len(s_archive)}")
@@ -174,15 +176,16 @@ if __name__ == "__main__":
         add_to_archive(to_archive, archive, kdt)
         add_to_archive(to_s_archive, s_archive, s_kdt, main=False)
 
-        max_fitness = -sys.maxsize
         sum_fit = 0
         for x in archive.values():
             sum_fit += x.fitness
             if x.fitness > max_fitness:
                 max_fitness = x.fitness
+                best_actor = x
         print(f"[{n_evals}/{int(args.max_evals)}]", flush=True)
         print(f"Max fitness: {max_fitness}")
         print(f"Mean fitness: {sum_fit / len(archive)}")
         print(f"QD score: {sum_fit}")
-
+    file_name = f"PGA-MAP-Elites_{args.env}_{args.seed}_{args.dim_map}_fitness_{max_fitness}"
+    best_actor.save(f"{args.save_path}/models/{file_name}_critic_" + str(n_evals))
     env.close()
