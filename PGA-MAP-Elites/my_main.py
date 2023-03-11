@@ -100,6 +100,8 @@ if __name__ == "__main__":
     args = parser.parse_args()
     args.neurons_list = [int(x) for x in args.neurons_list.split()]
 
+    file_name = f"PGA-MAP-Elites_{args.env}_{args.seed}_{args.dim_map}"
+
     # 设置seed
     torch.manual_seed(args.seed * int(1e6))
     np.random.seed(args.seed * int(1e6))
@@ -134,6 +136,10 @@ if __name__ == "__main__":
     n_evals = 0
     max_fitness = -sys.maxsize
     best_actor = None
+    actor_500 = None
+    actor_1000 = None
+    actor_1500 = None
+
     while n_evals < args.max_evals:
         print(f"Number of solutions:{len(archive)}")
         print(f"Number of species:{len(s_archive)}")
@@ -181,11 +187,28 @@ if __name__ == "__main__":
             sum_fit += x.fitness
             if x.fitness > max_fitness:
                 max_fitness = x.fitness
-                best_actor = x
+                best_actor = x.x
+                if actor_500 is None:
+                    if max_fitness > 500:
+                        actor_500 = best_actor
+                        actor_500.save(
+                            f"{args.save_path}/models/{file_name}_actor_eval_" + str(n_evals) + "_fitness_" + str(
+                                max_fitness))
+                if actor_1000 is None:
+                    if max_fitness > 1000:
+                        actor_1000 = best_actor
+                        actor_1000.save(
+                            f"{args.save_path}/models/{file_name}_actor_eval_" + str(n_evals) + "_fitness_" + str(
+                                max_fitness))
+                if actor_1500 is None:
+                    if max_fitness > 1500:
+                        actor_1500 = best_actor
+                        actor_1500.save(
+                            f"{args.save_path}/models/{file_name}_actor_eval_" + str(n_evals) + "_fitness_" + str(
+                                max_fitness))
         print(f"[{n_evals}/{int(args.max_evals)}]", flush=True)
         print(f"Max fitness: {max_fitness}")
         print(f"Mean fitness: {sum_fit / len(archive)}")
         print(f"QD score: {sum_fit}")
-    file_name = f"PGA-MAP-Elites_{args.env}_{args.seed}_{args.dim_map}_fitness_{max_fitness}"
-    best_actor.save(f"{args.save_path}/models/{file_name}_critic_" + str(n_evals))
+    best_actor.save(f"{args.save_path}/models/{file_name}_actor_" + str(n_evals))+"_fitness_"+str(max_fitness)
     env.close()

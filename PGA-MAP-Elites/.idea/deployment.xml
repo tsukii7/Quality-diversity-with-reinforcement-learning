@@ -2,24 +2,24 @@
 <project version="4">
   <component name="PublishConfigData" autoUpload="Always" serverName="zxq@10.16.35.18:10022 password (3)" remoteFilesAllowedToDisappearOnAutoupload="false">
     <serverData>
+      <paths name="student1@172.18.34.93:11736 password">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="student1@172.18.34.93:11736 password (1)">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="zxq@10.16.35.18:10022 password">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="zxq@10.16.35.18:10022 password (2)">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="zxq@10.16.35.18:10022 password (3)">
-        <serverdata>
-          <mappings>
-            <mapping deploy="/tmp/pycharm_project_316" local="$PROJECT_DIR$" />
           </mappings>
         </serverdata>
       </paths>

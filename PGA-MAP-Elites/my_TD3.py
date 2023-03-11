@@ -87,7 +87,7 @@ class ActorNetwork(nn.Module):
         torch.save(self.state_dict(), filename + "_actor")
 
     def load(self, filename):
-        self.load_state_dict(torch.load(filename + "_actor"))
+        self.load_state_dict(torch.load(filename))
 
 
 class CriticNetwork(nn.Module):

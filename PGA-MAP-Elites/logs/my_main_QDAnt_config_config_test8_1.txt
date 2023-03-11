@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\Ksco\OneDrive\文档\CourseFile\GroupProject\github\Quality-diversity-with-reinforcement-learning\PGA-MAP-Elites\my_main.py", line 7, in <module>
+    from my_TD3 import TD3, ActorNetwork
+  File "C:\Users\Ksco\OneDrive\文档\CourseFile\GroupProject\github\Quality-diversity-with-reinforcement-learning\PGA-MAP-Elites\my_TD3.py", line 16, in <module>
+    import torch
+  File "C:\Users\Ksco\AppData\Roaming\Python\Python39\site-packages\torch\__init__.py", line 129, in <module>
+    raise err
+OSError: [WinError 1455] 页面文件太小，无法完成操作。 Error loading "C:\Users\Ksco\AppData\Roaming\Python\Python39\site-packages\torch\lib\cublas64_11.dll" or one of its dependencies.
